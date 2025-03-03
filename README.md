@@ -39,7 +39,7 @@ TLS Version Comparison (for CSV data).
 
 
 #### How to Run: ####
-Make sure you have PCAPNG files (e.g., firefox.pcapng, google.pcapng, etc.) in the same directory.
+Make sure you have PCAPNG files (e.g., firefox.pcapng, google.pcapng, etc.) in the same directory (src directory).
 Run the script. The analysis will generate various plots saved in the res/ directory.
 Additionally, for TLS version comparison, ensure you have CSV files that contain the protocol information.
 ### 2. Application Prediction using Random Forest ###
@@ -83,7 +83,7 @@ The accuracy of both models is compared, and a bar chart is generated showing th
 
 **command: pip install pyshark pandas numpy matplotlib scikit-learn**
 #### How to Run: ####
-Place your PCAPNG files (e.g., firefox.pcapng, google.pcapng, etc.) in the directory.
+Place your PCAPNG files (e.g., firefox.pcapng, google.pcapng, etc.) in the src directory.
 The script will automatically process the files and save the merged dataset as merged_data.csv in the output directory.
 The model will be trained and evaluated, and the results will be displayed in a bar chart.
 #### Output: ####
