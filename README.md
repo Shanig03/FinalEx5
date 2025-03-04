@@ -36,7 +36,7 @@ TLS Version Comparison (for CSV data).
 **pandas:** For handling data and generating CSV output.
 
 ```bash
-command: pip install pandas scapy matplotlib
+pip install pandas scapy matplotlib
 ````
 
 
@@ -84,7 +84,7 @@ The accuracy of both models is compared, and a bar chart is generated showing th
 **scikit-learn:** For machine learning (Random Forest Classifier and data splitting).
 
 ```bash
-command: pip install pyshark pandas numpy matplotlib scikit-learn
+pip install pyshark pandas numpy matplotlib scikit-learn
 ```
 #### How to Run: ####
 Place your PCAPNG files (e.g., firefox.pcapng, google.pcapng, etc.) in the src directory.
