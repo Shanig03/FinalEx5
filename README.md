@@ -35,7 +35,9 @@ TLS Version Comparison (for CSV data).
 
 **pandas:** For handling data and generating CSV output.
 
-**command: pip install pandas scapy matplotlib**
+```bash
+command: pip install pandas scapy matplotlib
+````
 
 
 #### How to Run: ####
