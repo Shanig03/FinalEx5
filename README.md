@@ -83,7 +83,9 @@ The accuracy of both models is compared, and a bar chart is generated showing th
 
 **scikit-learn:** For machine learning (Random Forest Classifier and data splitting).
 
-**command: pip install pyshark pandas numpy matplotlib scikit-learn**
+```bash
+command: pip install pyshark pandas numpy matplotlib scikit-learn
+```
 #### How to Run: ####
 Place your PCAPNG files (e.g., firefox.pcapng, google.pcapng, etc.) in the src directory.
 The script will automatically process the files and save the merged dataset as merged_data.csv in the output directory.
